@@ -1,0 +1,32 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text", 
+      "info-card#button-right",
+      "flex-layout.row#main"     
+    ]
+  },
+  /* alteração a partir do git*/
+  "rich-text": { 
+    "props": { 
+      /*Markdown ** bold ** */
+      "text": "**VTEX Store Framework**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "info-card#button-right": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T113448Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=f157899f586f4a2f96b373e9f0ee1e1a76fc7475eab0d80e061d86c9824a9e46",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  }
+}
